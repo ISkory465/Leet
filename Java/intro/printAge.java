@@ -1,3 +1,4 @@
+package intro;
 class printAge {
     static int age;
     public static void main(String[] args){

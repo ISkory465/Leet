@@ -1,3 +1,4 @@
+package intro;
 import java.text.Format;
 import java.util.Scanner;
 
@@ -50,7 +51,7 @@ public class UserInput {
         System.out.print("What programming laguage do you learn right now?: ");
         String language = scanner.nextLine();
 
-        System.out.printf("%s is cool.", language);
+        System.out.printf("%s is cool.\n", language);
 
 
 

@@ -1,3 +1,4 @@
+package intro;
 public class Operators {
     public static void main(String[] args) {
         System.out.println("Hello");
@@ -32,6 +33,7 @@ public class Operators {
 
         // remainder (modulo / modulus)
         System.out.println(number1 % number2); // 2
+        
     } 
 
     private static void RelationalOperator() {
