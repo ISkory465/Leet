@@ -12,6 +12,10 @@ public class Car {
         this.setYear(year);
     }
 
+    Car(Car obj) {
+        this.copy(obj);
+    }
+
     public String getMake() {
         return make;
     }
@@ -36,8 +40,14 @@ public class Car {
         this.year = year;
     }
 
-
-    public String toString() {
-        return String.format("The %s %s made in %d", make , model, year);
+    public void copy(Car obj) {
+        this.setMake(obj.getMake());
+        this.setModel(obj.getModel());
+        this.setYear(obj.getYear());
     }
+
+
+    // public String toString() {
+    //     return String.format("The %s %s made in %d", make , model, year);
+    // }
 }
