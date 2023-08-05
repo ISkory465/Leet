@@ -12,9 +12,7 @@ public class File_example {
 
 
         File file = new File("C:\\Users\\Beats\\Desktop\\Java_read_xmpl.txt");
-        // FileReader fileReader = new FileReader(file);
-        // BufferedReader bufferedReader = new BufferedReader(fileReader);
-
+        
         try {
         FileReader fileReader = new FileReader(file);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
