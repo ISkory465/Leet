@@ -14,10 +14,10 @@ public class File_example {
         File file = new File("C:\\Users\\Beats\\Desktop\\Java_read_xmpl.txt");
         
         try {
-        FileReader fileReader = new FileReader(file);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
+            FileReader fileReader = new FileReader(file);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
 
-        String line;
+            String line;
         while ((line = bufferedReader.readLine()) != null) {
             System.out.println(line); // Print the content of each line
         }
