@@ -19,7 +19,7 @@ public class File_example {
 
             String line;
         while ((line = bufferedReader.readLine()) != null) {
-            System.out.println(line); // Print the content of each line
+            System.out.println(line); 
         }
 
         bufferedReader.close();
