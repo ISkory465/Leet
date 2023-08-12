@@ -19,7 +19,7 @@ public class File_example {
 
             String line;
         while ((line = bufferedReader.readLine()) != null) {
-            System.out.println(line); 
+            System.out.println(line); // Print line (let's the streak go on, lazy day)
         }
 
         bufferedReader.close();
