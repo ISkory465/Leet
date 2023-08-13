@@ -11,10 +11,16 @@ public class for_loop {
         
         System.out.printf("Vaelra's length: %d \n", valera.length());
 
-        for (int i=0; i<valera.length(); i++) {
-            // System.out.printf("Loop value: %d \n", i);   
-            char nameChar = valera.charAt(i);
-            System.out.printf("name: \'Valera\'; i-value/index: %d; char: %s \n", i, nameChar);
+        // for (int i=0; i<valera.length(); i++) {
+        //     // System.out.printf("Loop value: %d \n", i);   
+        //     char nameChar = valera.charAt(i);
+        //     System.out.printf("name: \'Valera\'; i-value/index: %d; char: %s \n", i, nameChar);
+        // }
+
+        //2nd loop practice
+        for (char letter: valera.toCharArray()) 
+            System.out.println(letter);{
+
         }
     }
 }
