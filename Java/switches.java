@@ -9,6 +9,8 @@ public class switches {
 
         String day = "Valera";
 
+
+        //if no match for any case the default is executed
         switch(day){
             case "Sunday": System.out.println("It is Sunday!");
             break;
