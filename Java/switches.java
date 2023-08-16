@@ -7,7 +7,7 @@ public class switches {
     public static void Example1() {
         System.out.println("Example1 is executed.");
 
-        String day = "Valera";
+        String day = "Thursday";
 
 
         //if no match for any case the default is executed
@@ -19,6 +19,8 @@ public class switches {
             case "Tuesday": System.out.println("It is Tuesday!");
             break;
             case "Wednesday": System.out.println("It is Wednesday!");
+            break;
+            case "Thursday": System.out.println("It is Thursday!");
             break;
             case "Friday": System.out.println("It is Friday!");
             break;
