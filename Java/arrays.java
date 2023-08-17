@@ -20,7 +20,7 @@ public class arrays {
         cars[3] = "Volkswagen";
         cars[4] = "Mazda";
 
-        // System.out.println(cars[4]);
+        System.out.println(cars[4]);
 
         //check the max length of the element in the array
 
