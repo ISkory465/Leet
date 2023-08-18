@@ -32,12 +32,14 @@ public class arrays {
             }
         }
 
+
         for (int i=1; i <= cars.length; i++) {
 
             int carNameLenght = cars[i-1].length();
             String printOutput = " ".repeat(maxNameLength-carNameLenght+1);
             printOutput += cars[i-1];
 
+            //check sprintf_formating.javafile for easier built in approach
             System.out.printf("Automanufacturer #%d:%s \n", i, printOutput);
         }
     }
