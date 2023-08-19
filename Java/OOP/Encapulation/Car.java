@@ -47,7 +47,7 @@ public class Car {
     }
 
 
-    // public String toString() {
-    //     return String.format("The %s %s made in %d", make , model, year);
-    // }
+    public String toString() {
+        return String.format("The %s %s made in %d", make , model, year);
+    }
 }

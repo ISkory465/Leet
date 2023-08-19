@@ -28,5 +28,9 @@ public class Main {
         System.out.println(car2.getYear());
         System.out.println(car2.getMake());
         System.out.println();
+
+        //toString for the object -> __str__ in python
+        System.out.println(car);
+        System.out.println(car2);
     }
 }
