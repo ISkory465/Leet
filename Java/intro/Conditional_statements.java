@@ -45,7 +45,7 @@ public class Conditional_statements {
             }
             
         } else {
-            System.out.printf("The peration %s is not supported by the current software version, kek. \n", operation);
+            System.out.printf("The operation %s is not supported by the current software version, kek. \n", operation);
         }
             
         
